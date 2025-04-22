@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor:grab;
 }
 html,
 body {
@@ -26,7 +25,11 @@ header {
   top: 0;
   z-index: 1000;
 }
-
+/*header:hover {
+  background: #ff2c2c;
+  transition: background 0.3s ease;
+}
+*/
 .logo img {
   height: 50px;
 }
@@ -115,7 +118,7 @@ nav ul li a {
 .features {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 
 .features h2 {
@@ -130,7 +133,7 @@ nav ul li a {
 }
 
 .feature-card {
-  background: #f9f9f9;
+  background: #fff;
   padding: 2rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -245,7 +248,7 @@ nav ul li a {
 .service-card img {
   height: 60px;
   margin-bottom: 1rem;
-  background: #ff2c2c;
+  /*background: #ff2c2c;*/
   padding: 0.8rem;
   border-radius: 10px;
 }
@@ -440,4 +443,33 @@ nav ul li a {
 }
 .bold-text{
   font-weight: bold;
+  font-size: small;
 }
+/*.header-text:hover {
+  color: #ff2c2c;
+  text-decoration:solid;
+  text-decoration-color: #ff2c2c;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  transition: all 0.3s ease;
+}
+.bold-text-text:hover {
+  color: #ff2c2c;
+  text-decoration: solid;
+  text-decoration-color: #ff2c2c;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  transition: all 0.3s ease;
+}
+  */
+  .navigation li a:hover 
+  {
+    color: #ff2c2c;
+    text-decoration: solid;
+    text-decoration-color: #ff2c2c;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    background: #000000;
+    }
